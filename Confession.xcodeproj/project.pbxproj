@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		868BCFEE1FFF4EC0008F263D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BCFED1FFF4EC0008F263D /* AppDelegate.swift */; };
-		868BCFF01FFF4EC0008F263D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BCFEF1FFF4EC0008F263D /* ViewController.swift */; };
+		868BCFF01FFF4EC0008F263D /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BCFEF1FFF4EC0008F263D /* GoalsVC.swift */; };
 		868BCFF31FFF4EC0008F263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868BCFF11FFF4EC0008F263D /* Main.storyboard */; };
 		868BCFF61FFF4EC0008F263D /* Confession.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 868BCFF41FFF4EC0008F263D /* Confession.xcdatamodeld */; };
 		868BCFF81FFF4EC0008F263D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 868BCFF71FFF4EC0008F263D /* Assets.xcassets */; };
 		868BCFFB1FFF4EC0008F263D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868BCFF91FFF4EC0008F263D /* LaunchScreen.storyboard */; };
+		868BD0081FFF585C008F263D /* ConfessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD0071FFF585C008F263D /* ConfessionCell.swift */; };
+		868BD00A1FFF6E38008F263D /* ConfessionCreationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD0091FFF6E38008F263D /* ConfessionCreationVC.swift */; };
+		868BD00C1FFF6F9B008F263D /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD00B1FFF6F9B008F263D /* UIViewControllerExt.swift */; };
+		868BD00E1FFF73E2008F263D /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD00D1FFF73E2008F263D /* UIViewExt.swift */; };
+		868BD0101FFF776C008F263D /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD00F1FFF776C008F263D /* UIButtonExt.swift */; };
+		868BD0121FFFA4CE008F263D /* cameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD0111FFFA4CE008F263D /* cameraVC.swift */; };
+		868BD0141FFFA6A8008F263D /* BROKEN15.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 868BD0131FFFA6A7008F263D /* BROKEN15.TTF */; };
+		868BD0161FFFA6FC008F263D /* TopSecret-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 868BD0151FFFA6FC008F263D /* TopSecret-Regular.otf */; };
+		868BD0192000171D008F263D /* MISPROJECT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 868BD0182000171C008F263D /* MISPROJECT.TTF */; };
+		868BD01B20002150008F263D /* infoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD01A20002150008F263D /* infoVC.swift */; };
+		868BD01D200022D3008F263D /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD01C200022D3008F263D /* mainVC.swift */; };
+		868BD01F20002395008F263D /* choiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BD01E20002395008F263D /* choiceVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		868BCFEA1FFF4EC0008F263D /* Confession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Confession.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		868BCFED1FFF4EC0008F263D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		868BCFEF1FFF4EC0008F263D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		868BCFEF1FFF4EC0008F263D /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		868BCFF21FFF4EC0008F263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		868BCFF51FFF4EC0008F263D /* Confession.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Confession.xcdatamodel; sourceTree = "<group>"; };
 		868BCFF71FFF4EC0008F263D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		868BCFFA1FFF4EC0008F263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		868BCFFC1FFF4EC0008F263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868BD0071FFF585C008F263D /* ConfessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfessionCell.swift; sourceTree = "<group>"; };
+		868BD0091FFF6E38008F263D /* ConfessionCreationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfessionCreationVC.swift; sourceTree = "<group>"; };
+		868BD00B1FFF6F9B008F263D /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		868BD00D1FFF73E2008F263D /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		868BD00F1FFF776C008F263D /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		868BD0111FFFA4CE008F263D /* cameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraVC.swift; sourceTree = "<group>"; };
+		868BD0131FFFA6A7008F263D /* BROKEN15.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BROKEN15.TTF; sourceTree = "<group>"; };
+		868BD0151FFFA6FC008F263D /* TopSecret-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TopSecret-Regular.otf"; sourceTree = "<group>"; };
+		868BD0182000171C008F263D /* MISPROJECT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISPROJECT.TTF; sourceTree = "<group>"; };
+		868BD01A20002150008F263D /* infoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoVC.swift; sourceTree = "<group>"; };
+		868BD01C200022D3008F263D /* mainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		868BD01E20002395008F263D /* choiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choiceVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +80,11 @@
 		868BCFEC1FFF4EC0008F263D /* Confession */ = {
 			isa = PBXGroup;
 			children = (
+				868BD0171FFFA71C008F263D /* Files */,
+				868BD0061FFF4F55008F263D /* Extensions */,
+				868BD0031FFF4F18008F263D /* View */,
+				868BD0021FFF4F0E008F263D /* Controller */,
 				868BCFED1FFF4EC0008F263D /* AppDelegate.swift */,
-				868BCFEF1FFF4EC0008F263D /* ViewController.swift */,
 				868BCFF11FFF4EC0008F263D /* Main.storyboard */,
 				868BCFF71FFF4EC0008F263D /* Assets.xcassets */,
 				868BCFF91FFF4EC0008F263D /* LaunchScreen.storyboard */,
@@ -65,6 +92,47 @@
 				868BCFF41FFF4EC0008F263D /* Confession.xcdatamodeld */,
 			);
 			path = Confession;
+			sourceTree = "<group>";
+		};
+		868BD0021FFF4F0E008F263D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				868BCFEF1FFF4EC0008F263D /* GoalsVC.swift */,
+				868BD0091FFF6E38008F263D /* ConfessionCreationVC.swift */,
+				868BD0111FFFA4CE008F263D /* cameraVC.swift */,
+				868BD01A20002150008F263D /* infoVC.swift */,
+				868BD01C200022D3008F263D /* mainVC.swift */,
+				868BD01E20002395008F263D /* choiceVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		868BD0031FFF4F18008F263D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				868BD0071FFF585C008F263D /* ConfessionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		868BD0061FFF4F55008F263D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				868BD00B1FFF6F9B008F263D /* UIViewControllerExt.swift */,
+				868BD00D1FFF73E2008F263D /* UIViewExt.swift */,
+				868BD00F1FFF776C008F263D /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		868BD0171FFFA71C008F263D /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				868BD0131FFFA6A7008F263D /* BROKEN15.TTF */,
+				868BD0182000171C008F263D /* MISPROJECT.TTF */,
+				868BD0151FFFA6FC008F263D /* TopSecret-Regular.otf */,
+			);
+			path = Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +194,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868BD0192000171D008F263D /* MISPROJECT.TTF in Resources */,
+				868BD0161FFFA6FC008F263D /* TopSecret-Regular.otf in Resources */,
 				868BCFFB1FFF4EC0008F263D /* LaunchScreen.storyboard in Resources */,
 				868BCFF81FFF4EC0008F263D /* Assets.xcassets in Resources */,
 				868BCFF31FFF4EC0008F263D /* Main.storyboard in Resources */,
+				868BD0141FFFA6A8008F263D /* BROKEN15.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +210,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				868BCFF01FFF4EC0008F263D /* ViewController.swift in Sources */,
+				868BD0121FFFA4CE008F263D /* cameraVC.swift in Sources */,
+				868BD00E1FFF73E2008F263D /* UIViewExt.swift in Sources */,
+				868BCFF01FFF4EC0008F263D /* GoalsVC.swift in Sources */,
+				868BD01D200022D3008F263D /* mainVC.swift in Sources */,
+				868BD00C1FFF6F9B008F263D /* UIViewControllerExt.swift in Sources */,
+				868BD01F20002395008F263D /* choiceVC.swift in Sources */,
+				868BD01B20002150008F263D /* infoVC.swift in Sources */,
 				868BCFF61FFF4EC0008F263D /* Confession.xcdatamodeld in Sources */,
+				868BD0081FFF585C008F263D /* ConfessionCell.swift in Sources */,
+				868BD00A1FFF6E38008F263D /* ConfessionCreationVC.swift in Sources */,
 				868BCFEE1FFF4EC0008F263D /* AppDelegate.swift in Sources */,
+				868BD0101FFF776C008F263D /* UIButtonExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +358,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4U6ZU856U;
 				INFOPLIST_FILE = Confession/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ardhendu.shekhar.mishra.Confession;
+				PRODUCT_BUNDLE_IDENTIFIER = ardhendu.shekhar.mishra.confession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +376,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C4U6ZU856U;
 				INFOPLIST_FILE = Confession/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ardhendu.shekhar.mishra.Confession;
+				PRODUCT_BUNDLE_IDENTIFIER = ardhendu.shekhar.mishra.confession;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
